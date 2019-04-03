@@ -1,6 +1,8 @@
 package src;
 
 import java.util.Scanner;
+
+import gui.Interface;
 /*
  * Class: UserInput
  * Description: -	Initializes a Scanner to read user's input via the Console.
@@ -9,6 +11,7 @@ import java.util.Scanner;
 public class UserInput {
 	Scanner input;
 	String user;
+	Interface gui;
 	/*
 	 * Method: getInput (String)
 	 * Inputs: 		-	None
@@ -22,7 +25,20 @@ public class UserInput {
 		input = new Scanner(System.in);
 		user = input.nextLine();
 		return user.toLowerCase();
-	}	
+	}
+	
+	public String getInputGui(Interface gui) {
+	    input = new Scanner(gui.getInput());
+        if(input.hasNext())
+            return input.nextLine().toLowerCase();
+        else
+            return "";
+	}
+	
+	public void setInput(String user) {
+	    this.user = user;
+	}
+	
 	/*
 	 * Method: close
 	 * Inputs: 		-	None

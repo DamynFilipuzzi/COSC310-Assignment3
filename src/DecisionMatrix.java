@@ -5,6 +5,8 @@ package src;
 //Feb 13 worked on it for 3 hours
 //Feb 15 worked on it from 11:30 -
 //note to self spilt up into helper methods for unit testing
+import gui.Interface;
+
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,6 +14,12 @@ public class DecisionMatrix {
   String tryAgain = "Did not understand that, please try again.";
   //inputs are userInput, filename
   //note number of answer = 4th line in txt file
+  Run run;
+  
+  public DecisionMatrix(Run run) {
+      this.run = run;
+  }
+  
   public String[] letsSplit(String s){
     String[] files_part1 = s.split("\\.");
     String[] files_part2 = files_part1[0].split("-");
@@ -19,7 +27,7 @@ public class DecisionMatrix {
     return split;
   }
   //for asking if there is anything else
-  public String anythingElse(String userInput){
+  public String anythingElse(String userInput, Interface gui){
       //if the word says answer 1 point to begin the loop again
       if(userInput.contains("yes")){
         return "loop-0.txt";
@@ -28,14 +36,14 @@ public class DecisionMatrix {
       else if(userInput.contains("no")){
         return "end-0.txt";
       }else {
-        System.out.println(tryAgain);
+        gui.printBotOutput(tryAgain);
         return "anythingElse-0.txt";
       }
   }
 
 
 
-  public String[] threeOrTwo(int i, String userInput, String[] answers, String[] files_part2, String file){
+  public String[] threeOrTwo(Interface gui, int i, String userInput, String[] answers, String[] files_part2, String file){
     for(int j = 0; j<i; j++){
       if(userInput.contains(answers[j].split(" ")[1])){
         files_part2[0]=files_part2[0]+j;
@@ -46,13 +54,13 @@ public class DecisionMatrix {
       }
     }
     if((files_part2[0]+"-"+files_part2[1]+".txt").equals(file)){
-      System.out.println(tryAgain);
+      gui.printBotOutput(tryAgain);
       return letsSplit(file);
     }
 
     return files_part2;
   }
-  public String Decision(String userInput, String file, int selection) throws FileNotFoundException {
+  public String Decision(Interface gui, String userInput, String file, int selection) throws FileNotFoundException {
     String decision;
     //these 2 lines separates the file name by - and .
     String[] files_part2 = letsSplit(file);
@@ -94,16 +102,20 @@ public class DecisionMatrix {
     }
     if(check.contains("anything else"))
     {
-        return anythingElse(userInput);
+        return anythingElse(userInput, gui);
     }
     if(i>1){
-      files_part2 = threeOrTwo(i, userInput, answers, files_part2, file);
+      files_part2 = threeOrTwo(gui, i, userInput, answers, files_part2, file);
     }
 
     if(i==1){
       //new priority if empty question
-      int j = Integer.parseInt(files_part2[1]) + 1;
-      files_part2[1]=j +"";
+        if(userInput.length()>0) {
+            int j = Integer.parseInt(files_part2[1]) + 1;
+            files_part2[1]=j +"";
+        } else {
+            gui.printBotOutput(tryAgain);
+        }
     }
     //decision = path, priority and file type
     decision = files_part2[0]+"-"+files_part2[1]+".txt";

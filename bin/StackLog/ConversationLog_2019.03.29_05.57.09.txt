@@ -1,0 +1,14 @@
+Chatbot: Thank you for using our Chatbot.
+User: no
+Chatbot: Is there anything else I can help you with today?
+User: yes
+Chatbot: Please restart your device and wait a minute. Is your phone connected now?
+User: no
+Chatbot: Is your phone connected to a service provider?
+User: yes
+Chatbot: Can you turn your phone on?
+User: 2
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
