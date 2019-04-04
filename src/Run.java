@@ -76,7 +76,7 @@ public class Run {
             gui.printBotOutput(initial.get(0));
             counter++;
             convo.push("Chatbot: "+initial.get(0).getQuestion());
-            Thread.sleep(4500);                 // give user 5 Seconds to respond
+            Thread.sleep(4500);                 // give user 4.5 Seconds to respond
             inputReady = gui.getInputBool();    // boolean storing whether user has inputed
             if(inputReady) {                    // makes sure user input is not null
                 ui.setInput(gui.getInput());

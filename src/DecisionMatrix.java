@@ -48,8 +48,6 @@ public class DecisionMatrix {
       }
   }
 
-
-
   public String[] threeOrTwo(Interface gui, int i, String userInput, String[] answers, String[] files_part2, String file){
     for(int j = 0; j<i; j++){
       if(userInput.contains(answers[j].split(" ")[1])){
