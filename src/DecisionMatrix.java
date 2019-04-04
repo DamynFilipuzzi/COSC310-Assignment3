@@ -7,11 +7,17 @@ package src;
 //note to self spilt up into helper methods for unit testing
 import gui.Interface;
 
+import java.util.Random;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 public class DecisionMatrix {
-  String tryAgain = "Did not understand that, please try again.";
+  String[] tryAgain = {"Sorry I did not understand that, please try again.",
+		  "Unfortuantely I did not understand your response, please be more specific",
+		  "I am unable to understand your response, please try again",
+		  "Unfortunately I'm not sure what you mean, please be more descriptive",
+		  "I do not understand what you said, please try again"};
+  Random rand = new Random();
   //inputs are userInput, filename
   //note number of answer = 4th line in txt file
   Run run;
@@ -36,7 +42,8 @@ public class DecisionMatrix {
       else if(userInput.contains("no")){
         return "end-0.txt";
       }else {
-        gui.printBotOutput(tryAgain);
+    	int n = rand.nextInt(5);  
+        gui.printBotOutput(tryAgain[n]);
         return "anythingElse-0.txt";
       }
   }
@@ -54,8 +61,9 @@ public class DecisionMatrix {
       }
     }
     if((files_part2[0]+"-"+files_part2[1]+".txt").equals(file)){
-      gui.printBotOutput(tryAgain);
-      return letsSplit(file);
+    	int n = rand.nextInt(5);
+    	gui.printBotOutput(tryAgain[n]);
+    	return letsSplit(file);
     }
 
     return files_part2;
@@ -114,7 +122,8 @@ public class DecisionMatrix {
             int j = Integer.parseInt(files_part2[1]) + 1;
             files_part2[1]=j +"";
         } else {
-            gui.printBotOutput(tryAgain);
+        	int n = rand.nextInt(5);
+            gui.printBotOutput(tryAgain[n]);
         }
     }
     //decision = path, priority and file type

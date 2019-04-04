@@ -32,7 +32,6 @@ public class Interface extends JFrame {
     static boolean setBool;
     
     UserInput ui;
-    
 
     public static void main(String[] args) throws IOException, InterruptedException {
         Interface frame = new Interface();
@@ -71,8 +70,7 @@ public class Interface extends JFrame {
                     inpTxt.setText("");
                 } else {
                     printBotOutput("I did not understand that, please try again.");
-                }
-                               
+                }              
             }       
         });
         
