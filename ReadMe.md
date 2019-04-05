@@ -15,4 +15,6 @@ To run the chatbot you will need to run the class "Interface.java" located in th
  - Graphical User Interface
  - Multiple Responses to misunderstood user input
 
-![](DFDLevel0.png)
+![Image](ReadMeImages/DFDLevel0.png)
+
+![Image](ReadMeImages/DFDLevel1.png)
