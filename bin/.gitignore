@@ -1,10 +1,8 @@
-/bin/
-Questions/test.txt
-Questions/test2.txt
-Questions/test.txt
-Questions/test.txt
-# Eclipse Core      
-.project
 
-# JDT-specific (Eclipse Java Development Tools)     
-.classpath
+bin/.project
+.project
+/.settings/
+/gui/
+/src/
+/.DS_Store
+/UnitTesting/

@@ -47,4 +47,5 @@ public class UserInput {
 	public void close() {
 		input.close();
 	}
+	
 }

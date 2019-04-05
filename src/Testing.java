@@ -2,7 +2,11 @@ package src;
 
 import java.io.IOException;
 
-/*
+/* ******************************************************************************
+ *  Class is depreciated since implementation of Gui version for Assignment 3
+ * ******************************************************************************
+ * 
+ * 
  * Class: Testing
  * Description: -	Test class that executes Chatbot
  * 				-	Creates instance of Run Class
@@ -13,7 +17,7 @@ import java.io.IOException;
  * Authors: Daulton Baird
  */
 public class Testing {
-
+    /*
 	public static void main(String[] args) throws IOException {
 		Run run = new Run();
 		System.out.println("Hello, I am Chatbot. I will be assisting you today.");
@@ -23,4 +27,5 @@ public class Testing {
 		    run.runLoop();
 		}
 	}
+	*/
 }

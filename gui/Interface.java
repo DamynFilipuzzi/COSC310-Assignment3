@@ -71,8 +71,7 @@ public class Interface extends JFrame {
                     inpTxt.setText("");
                 } else {
                     printBotOutput("I did not understand that, please try again.");
-                }
-                               
+                }                
             }       
         });
         
