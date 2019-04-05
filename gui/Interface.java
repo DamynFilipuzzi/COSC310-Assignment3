@@ -69,12 +69,8 @@ public class Interface extends JFrame {
                     mainTxt.append("You:  " + userInput + "\n");
                     inpTxt.setText("");
                 } else {
-                    printBotOutput("I did not understand that, please try again.");
-<<<<<<< HEAD
-                }                
-=======
+                    printBotOutput("I did not understand that, please try again.");                
                 }              
->>>>>>> b54303408904829a61022382ed2488f6a440bb7a
             }       
         });
         
