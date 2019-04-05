@@ -79,21 +79,21 @@ public class Run {
             Thread.sleep(4500);                 // give user 4.5 Seconds to respond
             inputReady = gui.getInputBool();    // boolean storing whether user has inputed
             if(inputReady) {                    // makes sure user input is not null
-                    ui.setInput(gui.getInput());
-                    setUser(ui.getInputGui(gui));
-                    convo.push("User: "+getUser());
-                    if (getUser().contains("internet")) {
-                        setSelection(1);
-                        initializeTree();
-                        break; 
-                    } else if (getUser().contains("phone")) {
-                        setSelection(2);
-                        initializeTree();
-                        break; 
-                    } else {
-                        gui.printBotOutput("Did not understand that, please try again."); 
-                        counter=0;
-                    }
+                ui.setInput(gui.getInput());
+                setUser(ui.getInputGui(gui));
+                convo.push("User: "+getUser());
+                if (getUser().contains("internet")) {
+                    setSelection(1);
+                    initializeTree();
+                    break; 
+                } else if (getUser().contains("phone")) {
+                    setSelection(2);
+                    initializeTree();
+                    break; 
+                } else {
+                    gui.printBotOutput("Did not understand that, please try again."); 
+                    counter=0;
+                }
             }
         }
 	}
