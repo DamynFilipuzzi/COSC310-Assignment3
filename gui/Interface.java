@@ -11,6 +11,7 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.text.DefaultCaret;
 
 import src.Question;
 import src.Run;
@@ -19,14 +20,14 @@ import src.UserInput;
 public class Interface extends JFrame {
 
     private static final long serialVersionUID = 1L;
-    // 
+
     public JButton button;
     public JTextArea mainTxt;
     public JScrollPane scroll;
     public JTextField inpTxt;
     private int width = 450;
     private int height = 700;
-    // 
+
     private String userInput;
     private String botOutput;
     static boolean setBool;
@@ -40,7 +41,7 @@ public class Interface extends JFrame {
         run.initialize();
         run.runLoop();
     }
-    
+    // Creates the Jframe for the gui
     public Interface() {
         setTitle("TECH-BOT");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -49,6 +50,8 @@ public class Interface extends JFrame {
         
         mainTxt = new JTextArea();
         mainTxt.setEditable(false);
+        DefaultCaret caret = (DefaultCaret)mainTxt.getCaret();
+        caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
         scroll = new JScrollPane(mainTxt);
         scroll.setPreferredSize(new Dimension(430, 640));
         
@@ -87,11 +90,11 @@ public class Interface extends JFrame {
         setInput("");
         
     }
-    
+    // Outputs a string to the text area for the bot
     public void printBotOutput(String out) {
         mainTxt.append("Tech-Bot:  " + out + "\n");
     }
-    
+    //Overrides the method above but used for Question in the question class
     public void printBotOutput(Question q) {
         String out = q.getQuestion();
         mainTxt.append("Tech-Bot:  " + out + "\n");
