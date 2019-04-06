@@ -21,7 +21,11 @@ The Data Flow Diagram above shows the level 1 stage of the program and the inter
 ![Image](ReadMeImages/graph.png)
 Note: The I started working on this assignment from the initial repository which is why the graphs appear skewed.
 # Sample Output
+The image below shows over 30 turns of dialouge between the user and the Bot
+![Image](ReadMeImages/Output.png)
 
+The image below shows a error which was introduced with the implementation of the Gui. This problem occurs because previously a scanner was used to to get the user input, which meant that the program would wait for the user to input something then it would continue on with the code. In order to get the program to work I had to change the logic, and in doing so introduced a new bug, where the bot only would wait for 4 seconds before trying to read the userinput.
+![Image](ReadMeImages/GuiError.png)
 
 # API
 - StackHandler to log the conversation, and file path
