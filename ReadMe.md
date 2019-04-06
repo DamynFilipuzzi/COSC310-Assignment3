@@ -11,11 +11,6 @@ The purpose of the program we created is to assist users in solving their techno
 
 To run the chatbot you will need to run the class "Interface.java" located in the Gui folder as a java application.
 
-# Features Implemented Since Assignment 2
- - Graphical User Interface
- - Multiple responses to misunderstood user input
- - Added additional bot dialogue branch (TV)
- - SpellChecker
 
 ![Image](ReadMeImages/DFDLevel0.png)
 The Data Flow Diagram above shows the level 0 stage in the major subsystems and their interactions with the user along with the logger. The user input is handled throught the Interface then the main process returns the output based on the users input. And finally once the user has finished interacting with the main process, the program writes out the conversation to the log files.
@@ -34,3 +29,11 @@ Note: The I started working on this assignment from the initial repository which
 - Bot Output/Input to the bot
 - Tree/Decision matrix class to build question files for the bot to decide what question to ask next
 - Basic SpellChecker
+
+# Features Implemented Since Assignment 2
+ - Graphical User Interface
+ - Multiple responses to misunderstood user input
+ - Added additional bot dialogue branch (TV)
+ - SpellChecker
+ 
+ 
