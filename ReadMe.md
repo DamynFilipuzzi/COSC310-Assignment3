@@ -43,18 +43,18 @@ The image below shows an error in which the bot doesn't understand an ambiguous 
  - Added additional bot dialogue branch (TV)
  - SpellChecker
  
-### Graphical User Interface
+## Graphical User Interface
 The graphical user interface allows the user to interact with the bot in an application view. 
 ![Image](ReadMeImages/Output.png)
 
-### Multiple Responses to misunderstood user input
+## Multiple Responses to misunderstood user input
 This feature gives the user the feeling that they're are talking to another person rather than a computer programmed, that just outputs the same generic responses over and over again.
 ![Image](ReadMeImages/MultipleResponse.png)
 
-### Added additional bot dialogue branch (TV)
-
+## Added additional bot dialogue branch (TV)
+The additional bot dailogue branch allows for more interaction between the user and the bot, this branch of dialogue can be selected at the begging of the interaction with the chat bot by entering in the phrase "TV"
 ![Image](ReadMeImages/MultipleResponse.png)
 
-### SpellChecker
+## SpellChecker
 The spell checker feature corrects any inproper or slight spelling errors the user can submitting their response. In the picture below the bot is expecting the input of "Cell" however the user enters "Cellular", the feature takes the users input and determines that they are reffering to "Cell" and outputs the proper follow up question.
-![Image](ReadMeImages/SpellCheck.png)
+![Image](ReadMeImages/Spellcheck.png)
