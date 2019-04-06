@@ -1,0 +1,149 @@
+Chatbot: Thank you for using our Chatbot.
+User: no
+Chatbot: Please contact your local service provider. Is there anything else I can help you with?
+User: no
+Chatbot: Can you check your HDMI cable and make sure it's plugged in all the way into the box and the TV. Did that fix your problem?
+User: 2
+Chatbot: How long as this been a problem?
+User: 
+Chatbot: How long as this been a problem?
+User: no
+Chatbot: Did that fix your problem?
+User: yes
+Chatbot: Please unplug the box, wait 30 seconds, then plug it back in. After waiting 5 minutes for it to reinitialize, do the lights on the box turn on?
+User: no
+Chatbot: Is your DVR/PVR turning on?
+User: tv
+Chatbot: Is your issue in regards to internet, phone, or TV?
+User: yes
+Chatbot: Please contact your local service provider for more information on viewing this channel. Is there anything else i can help you with?
+User: yes
+Chatbot: Have you purchased a package to view this channel?
+User: 
+Chatbot: Have you purchased a package to view this channel?
+User: 
+Chatbot: Have you purchased a package to view this channel?
+User: 
+Chatbot: Have you purchased a package to view this channel?
+User: 
+Chatbot: Have you purchased a package to view this channel?
+User: e
+Chatbot: What is the channel network you are trying to watch?
+User: 
+Chatbot: What is the channel network you are trying to watch?
+User: 
+Chatbot: What is the channel network you are trying to watch?
+User: 
+Chatbot: What is the channel network you are trying to watch?
+User: 
+Chatbot: What is the channel network you are trying to watch?
+User: e
+Chatbot: Is the issue in regards to viewing a specific channel?
+User: 
+Chatbot: Is the issue in regards to viewing a specific channel?
+User: yes
+Chatbot: Is your DVR/PVR turning on?
+User: tv
+Chatbot: Is your issue in regards to internet, phone, or TV?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Can you check your HDMI cable and make sure it's plugged in all the way into the box and the TV. Did that fix your problem?
+User: r
+Chatbot: How long as this been a problem?
+User: no
+Chatbot: Did that fix your problem?
+User: yes
+Chatbot: Please unplug the box, wait 30 seconds, then plug it back in. After waiting 5 minutes for it to reinitialize, do the lights on the box turn on?
+User: no
+Chatbot: Is your DVR/PVR turning on?
+User: tv
+Chatbot: Is your issue in regards to internet, phone, or TV?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Did that fix your problem?
+User: yes
+Chatbot: Please unplug the box, wait 30 seconds, then plug it back in. After waiting 5 minutes for it to reinitialize, do the lights on the box turn on?
+User: 
+Chatbot: Please unplug the box, wait 30 seconds, then plug it back in. After waiting 5 minutes for it to reinitialize, do the lights on the box turn on?
+User: no
+Chatbot: Is your DVR/PVR turning on?
+User: tv
+Chatbot: Is your issue in regards to internet, phone, or TV?
+User: 
+Chatbot: Is your issue in regards to internet, phone, or TV?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Please contact your local service provider. Is there anything else I can help you with?
+User: no
+Chatbot: Please unplug the box, wait 30 seconds, then plug it back in. After waiting 5 minutes for it to reinitialize, do the lights on the box turn on?
+User: no
+Chatbot: Is your DVR/PVR turning on?
+User: tv
+Chatbot: Is your DVR/PVR turning on?
+User: tv
+Chatbot: Is your issue in regards to internet, phone, or TV?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Alright, well in order to view the channel you will need to purchase the networks package, which can be done through the online store. Is there anything else I can help you with today?
+User: no
+Chatbot: Have you purchased a package to view this channel?
+User: r
+Chatbot: What is the channel network you are trying to watch?
+User: r
+Chatbot: Is the issue in regards to viewing a specific channel?
+User: yes
+Chatbot: Is your DVR/PVR turning on?
+User: tv
+Chatbot: Is your issue in regards to internet, phone, or TV?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Is there anything else I can help you with?
+User: 
+Chatbot: Please contact your local service provider for more information on viewing this channel. Is there anything else i can help you with?
+User: yes
+Chatbot: Have you purchased a package to view this channel?
+User: 
+Chatbot: Have you purchased a package to view this channel?
+User: food network
+Chatbot: What is the channel network you are trying to watch?
+User: 
+Chatbot: What is the channel network you are trying to watch?
+User: yes
+Chatbot: Is the issue in regards to viewing a specific channel?
+User: 
+Chatbot: Is the issue in regards to viewing a specific channel?
+User: 
+Chatbot: Is the issue in regards to viewing a specific channel?
+User: 
+Chatbot: Is the issue in regards to viewing a specific channel?
+User: yes
+Chatbot: Is your DVR/PVR turning on?
+User: tv
+Chatbot: Is your issue in regards to internet, phone, or TV?
