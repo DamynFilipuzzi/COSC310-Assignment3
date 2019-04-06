@@ -74,10 +74,13 @@ public class DecisionMatrix {
     //check selection
     File f = new File("");
     if(selection==1){
-      f = new File("Internet");
+        f = new File("Internet");
     }
     else if(selection==2){
-      f = new File("Phone");
+        f = new File("Phone");
+    }
+    else if (selection==3) {
+        f = new File("TV");
     }
     for(File check: f.listFiles()){
       if(check.getName().equals(file)){

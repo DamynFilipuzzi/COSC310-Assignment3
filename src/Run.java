@@ -90,6 +90,10 @@ public class Run {
                     setSelection(2);
                     initializeTree();
                     break; 
+                } else if (getUser().contains("tv")) {
+                    setSelection(3);
+                    initializeTree();
+                    break;
                 } else {
                     gui.printBotOutput("Did not understand that, please try again."); 
                     counter=0;
