@@ -55,7 +55,6 @@ public class SpellCheck {
                 }
             }
             
-        System.out.println(numMatches.get(i) + "   :   " + list.get(i));
         }
         int max = 0;
         int idx = 0;

@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 012
 1
 benis
 2
 1) true
 2) false
-=======
-012
-1
-benis
-2
-1) true
-2) false
->>>>>>> b54303408904829a61022382ed2488f6a440bb7a
