@@ -1,4 +1,4 @@
-# COSC310-Assignment3-Damyn_Filipuzzi
+# COSC310-Assignment3 - Damyn Filipuzzi
 
 
 The purpose of the program we created is to assist users in solving their technology problems. This chatbot is similar to ones you would see on websites such as TELUS where the chatbot leads the user through a series of questions in order to attempt to solve the users tech problems. In order to run the program in eclipse you will need to complete the following steps:
@@ -20,3 +20,16 @@ To run the chatbot you will need to run the class "Interface.java" located in th
 The Data Flow Diagram above shows the level 0 stage in the major subsystems and their interactions with the user along with the logger. The user input is handled throught the Interface then the main process returns the output based on the users input. And finally once the user has finished interacting with the main process, the program writes out the conversation to the log files.
 ![Image](ReadMeImages/DFDLevel1.png)
 The Data Flow Diagram above shows the level 1 stage of the program and the interactions with the user and the processes which occur. The diagram shows the user input recieved by the UserInput process, after which it is passed into the Run which passes the input to questions to determine the next question. The Decision Matrix then selects the next question based and returns it to run where it branches the output (next question) to the user. The StackHandler recieves the user input and bot output and pushes it to the conversation log, and as well it pushes the question file paths containing the questions to the File log path.
+
+# Graph
+
+
+# Sample Output
+
+
+# API
+- StackHandler to log the conversation, and file path
+- TextFile Creator, which can be used to create new branches for the conversation
+- Bot Output/Input to the bot
+- Tree/Decision matrix class to build question files for the bot to decide what question to ask next
+-
