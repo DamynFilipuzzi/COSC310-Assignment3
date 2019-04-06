@@ -24,8 +24,11 @@ Note: The I started working on this assignment from the initial repository which
 The image below shows over 30 turns of dialouge between the user and the Bot
 ![Image](ReadMeImages/Output.png)
 
-The image below shows a error which was introduced with the implementation of the Gui. This problem occurs because previously a scanner was used to to get the user input, which meant that the program would wait for the user to input something then it would continue on with the code. In order to get the program to work I had to change the logic, and in doing so introduced a new bug, where the bot only would wait for 4 seconds before trying to read the userinput.
+The image below shows a error which was introduced with the implementation of the Gui. This problem occurs because previously a scanner was used to to get the user input, which meant that the program would wait for the user to input something then it would continue on with the code. In order to get the program to work I had to change the logic, and in doing so introduced a new bug, where the bot only would wait for 4 seconds before trying to read the users #input.
 ![Image](ReadMeImages/GuiError.png)
+
+The image below shows an error in which the bot doesn't understand an ambiguous response from the user, the bot handles this by asking the user to ask rephrase their input. 
+![Image](ReadMeImages/Error2.png)
 
 # API
 - StackHandler to log the conversation, and file path
@@ -40,4 +43,18 @@ The image below shows a error which was introduced with the implementation of th
  - Added additional bot dialogue branch (TV)
  - SpellChecker
  
- 
+### Graphical User Interface
+The graphical user interface allows the user to interact with the bot in an application view. 
+![Image](ReadMeImages/Output.png)
+
+### Multiple Responses to misunderstood user input
+This feature gives the user the feeling that they're are talking to another person rather than a computer programmed, that just outputs the same generic responses over and over again.
+![Image](ReadMeImages/MultipleResponse.png)
+
+### Added additional bot dialogue branch (TV)
+
+![Image](ReadMeImages/MultipleResponse.png)
+
+### SpellChecker
+The spell checker feature corrects any inproper or slight spelling errors the user can submitting their response. In the picture below the bot is expecting the input of "Cell" however the user enters "Cellular", the feature takes the users input and determines that they are reffering to "Cell" and outputs the proper follow up question.
+![Image](ReadMeImages/SpellCheck.png)
