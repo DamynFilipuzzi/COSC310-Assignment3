@@ -15,6 +15,7 @@ To run the chatbot you will need to run the class "Interface.java" located in th
  - Graphical User Interface
  - Multiple responses to misunderstood user input
  - Added additional bot dialogue branch (TV)
+ - SpellChecker
 
 ![Image](ReadMeImages/DFDLevel0.png)
 The Data Flow Diagram above shows the level 0 stage in the major subsystems and their interactions with the user along with the logger. The user input is handled throught the Interface then the main process returns the output based on the users input. And finally once the user has finished interacting with the main process, the program writes out the conversation to the log files.
@@ -32,4 +33,4 @@ The Data Flow Diagram above shows the level 1 stage of the program and the inter
 - TextFile Creator, which can be used to create new branches for the conversation
 - Bot Output/Input to the bot
 - Tree/Decision matrix class to build question files for the bot to decide what question to ask next
--
+- Basic SpellChecker
