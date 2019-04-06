@@ -23,7 +23,7 @@ The Data Flow Diagram above shows the level 0 stage in the major subsystems and 
 The Data Flow Diagram above shows the level 1 stage of the program and the interactions with the user and the processes which occur. The diagram shows the user input recieved by the UserInput process, after which it is passed into the Run which passes the input to questions to determine the next question. The Decision Matrix then selects the next question based and returns it to run where it branches the output (next question) to the user. The StackHandler recieves the user input and bot output and pushes it to the conversation log, and as well it pushes the question file paths containing the questions to the File log path.
 
 # Graph
-![Image](ReadMeImage/graph.png)
+![Image](ReadMeImages/graph.png)
 
 # Sample Output
 
