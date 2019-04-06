@@ -1,0 +1,17 @@
+Chatbot: Thank you for using our Chatbot.
+User: no no
+Chatbot: Okay, in that case you are eligible to receive a new phone. Unfortunately you will need to visit one of our stores in person to do this. Is there anything else I can help you with today?
+User: yes yes
+Chatbot: Is your Phone still covered under warranty?
+User: no no
+Chatbot: Can you turn your phone on?
+User: both
+Chatbot: How many hours has this been a problem?
+User: cell cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to Internet, Phone, or TV?
+User: thank you
+Chatbot: Is your issue in regards to Internet, Phone, or TV?
+User: thank you
+Chatbot: Is your issue in regards to Internet, Phone, or TV?
