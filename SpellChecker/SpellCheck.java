@@ -48,7 +48,6 @@ public class SpellCheck {
             numMatches.add(i,0);
             // Iterate through each character
             for (int k = 0; k < size; k++) {
-                // If length of word is even the divide num match by length, else if not add 1 to the length and then divide.
                 if (str.charAt(k) == dictWord.charAt(k)) {
                     int curr = numMatches.get(i);
                     numMatches.set(i, ++curr);

@@ -95,7 +95,7 @@ public class Run {
                     initializeTree();
                     break;
                 } else {
-                    gui.printBotOutput("Did not understand that, please try again."); 
+                    gui.printBotOutput("I Did not understand that, please try again."); 
                     counter=0;
                 }
             }

@@ -38,6 +38,7 @@ public class UserInput {
             String inp = input.nextLine();            
             String[] words = inp.split(" ");
             for (String word: words) {
+                System.out.println("spellCheck: " + word);
                 String spellCheck = check.compare(word.toLowerCase());
                 if (spellCheck.equals(word)) {
                     result += words[i] + " ";
