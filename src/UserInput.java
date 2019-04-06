@@ -2,6 +2,7 @@ package src;
 
 import java.util.Scanner;
 
+import SpellChecker.SpellCheck;
 import gui.Interface;
 /*
  * Class: UserInput
@@ -12,6 +13,7 @@ public class UserInput {
 	Scanner input;
 	String user;
 	Interface gui;
+	SpellCheck check;
 	/*
 	 * Method: getInput (String)
 	 * Inputs: 		-	None
@@ -28,11 +30,25 @@ public class UserInput {
 	}
 	
 	public String getInputGui(Interface gui) {
+	    check = new SpellCheck(gui);
 	    input = new Scanner(gui.getInput());
-        if(input.hasNext())
-            return input.nextLine().toLowerCase();
-        else
+        if(input.hasNext()) {
+            String result = "";
+            int i = 0;
+            String inp = input.nextLine();            
+            String[] words = inp.split(" ");
+            for (String word: words) {
+                String spellCheck = check.compare(word.toLowerCase());
+                if (spellCheck.equals(word)) {
+                    result += words[i] + " ";
+                }
+                result += spellCheck;
+                i++;
+            }
+            return result.toLowerCase();
+        } else {
             return "";
+        }
 	}
 	
 	public void setInput(String user) {
